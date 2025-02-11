@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +17,8 @@
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "mongoose": "^8.10.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.0"
   }
 }
